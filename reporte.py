@@ -19,6 +19,12 @@ from sql import Literal
 from sql.aggregate import Max, Sum, Min, Avg
 from sql.conditionals import Coalesce
 
+def dummy(numero=None):
+    if numero:
+        return numero
+    else:
+        return 0 
+
 def numero_mes(numero):
     switcher = {
         0: "Enero",
