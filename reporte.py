@@ -21,11 +21,7 @@ from sql.conditionals import Coalesce
 
 def dummy(numero=None):
     if numero:
-<<<<<<< HEAD
-        return numero 
-=======
         return numero * 3
->>>>>>> 9b6fc17225812702b88389a53f7766ff22a50788
     else:
         return 0 
 
