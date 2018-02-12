@@ -21,7 +21,11 @@ from sql.conditionals import Coalesce
 
 def dummy(numero=None):
     if numero:
-        return numero
+<<<<<<< HEAD
+        return numero 
+=======
+        return numero * 3
+>>>>>>> 9b6fc17225812702b88389a53f7766ff22a50788
     else:
         return 0 
 
@@ -204,6 +208,9 @@ def mes(semana):
     mes = numero_mes(numero-1)
     anhio = str(anhio)
     return mes + ' - ' + anhio
+
+def dummy2(test=None):
+	return test 
 
 __all__ = [
     'Reporte',
